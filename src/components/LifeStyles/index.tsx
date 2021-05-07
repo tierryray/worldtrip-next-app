@@ -32,19 +32,3 @@ export function LifeStyles({ lifeStyles }: LifeStylesProps) {
     </Box>
   )
 }
-
-// if (isMobile) {
-//   console.log(true);
-//   return (
-//     <ListItem key={lifeStyle.description} display="flex" alignItems="center">
-//       <ListIcon as={GoPrimitiveDot} color="yellow.300" mb="4" />
-//       <Text fontWeight="500">{lifeStyle.description}</Text>
-//     </ListItem>
-//   );
-// }
-// return (
-//   <ListItem display="flex" flexDirection="column" alignItems="center">
-//     <ListIcon as={lifeStyle.icon} color="yellow.300" width="85px" height="85px" mb="4" />
-//     <Text fontWeight="500">{lifeStyle.description}</Text>
-//   </ListItem>
-// );
